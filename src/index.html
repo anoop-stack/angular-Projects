@@ -1,13 +1,28 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>AgRouter</title>
+  <!-- 
+
+        This means all the URLs now will be relative to the root of the application. So when we navaigate to "/list", the path "/list" will be appended to root UR and the complete URL will be as shown below. Notice "/list" is relative to the root URL.
+        http://localhost:4200/list.
+
+        if we are deploying our application in a sub-folder called "emp", then we set the base href element to /emp/ as shown below.
+        <base href="/emp/">
+
+
+        During development, if you want a different base path other than "/", simply execute the "ng serve" command with --base-href option set to your desired base path as shown below.
+        ng serve -o --base-href /emp/
+   -->
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
+
 <body>
   <app-root></app-root>
 </body>
+
 </html>

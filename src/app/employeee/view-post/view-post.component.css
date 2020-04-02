@@ -1,17 +1,3 @@
-.activeClass {
-    color: red;
-}
-.navbar.navbar-expand-sm.bg-light{
-    position: fixed;
-    width: 100%;
-    z-index: 100;
-    top:0;
-}
-
-
-div {
-    margin-top: 70px;
-}
 
 .spinner {
     border: 16px solid silver;
